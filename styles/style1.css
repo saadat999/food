@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    height: 45px;
+
+}
+
+.h-b {
+    width: 100%;
+
+    margin: auto;
+    border: 1px solid red;
+}
+
+.h-bg {
+    background: #474747;
+    color: #fff;
+    padding: 10px 0;
+    margin: auto;
+}
+
+.h-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h-icons {
+    display: flex;
+    gap: 4px;
+
+}
+
+.h-icons>div {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background: #F9F9F71F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.phone-email {
+    display: flex;
+    gap: 25px;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-style: inherit;
+
+    img {
+        margin-right: 8px;
+        margin-top: 4px;
+    }
+}
+
+.phone-email+img {
+    padding-left: 41px;
+
+}
+
+
+.h-logo h1 {
+    font-style: italic;
+    padding: 12px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.h-logo {
+    display: flex;
+    gap: 41px;
+    margin-top: -20px;
+    margin-right: 150px;
+
+    img {
+        margin-left: 105px;
+        
+    }
+}
+
+.h-menu a {
+    text-decoration: none;
+    color: #2C2F24;
+
+}
+
+.h-bottom {
+    display: flex;
+    margin-top: 29px;
+
+    a {
+        text-decoration: none;
+        color: #2C2F24;
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 8px;
+        font-weight: 500;
+        font-style: inherit;
+    }
+}
+.searching {
+  position: absolute;
+ right: 130px;
+ border-radius: 118px;
+ border: 2px solid black;
+ outline: none;
+ 
+}
